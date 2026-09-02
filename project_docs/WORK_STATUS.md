@@ -187,8 +187,8 @@ link_041/052, link_043/045)가 정확히 이 자세에서 충돌 판정됨. 이 
   **CLAUDE.md의 robot_arm_description/robot_arm_moveit_config 절이 이 교체 이전
   내용으로 낡아 있음 — 다음 세션에서 전면 재작성 필요** (아직 미착수).
 - **Notion 신규 문서 2건**(실측 절차 없던 gap 채움):
-  [wrist_camera_link 동적 TF 통합 절차](https://app.notion.com/p/3a42d27b08d38139948bf7f74a426ec8),
-  [stow_joint_positions 결정 절차](https://app.notion.com/p/3a42d27b08d381cba25ecee33cb1536c).
+  wrist_camera_link 동적 TF 통합 절차(팀 내부 문서),
+  stow_joint_positions 결정 절차(팀 내부 문서).
 - **`power-train-sw` 직접 대조**(코드 레벨): `contract.py`/QoS/`robot_arm_msgs` 전부
   일치 확인(드리프트 0). `파워트레인_계약_충돌점검.md`의 1·2·3번 항목이 커밋
   `581a83d`로 이미 해결됐음을 확인·문서 갱신 — **파워트레인 팀에 통보 필요**
